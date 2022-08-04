@@ -1,0 +1,117 @@
+/* основні кольори */
+
+:root {
+    --main-text-color: #212121;
+    --light-text-color: #757575;
+    --secondary-text-color: #2196F3;
+    --dark-bcg-color: #2F303A;
+    --light-bcg-color: #F5F4FA;
+    --main-light-color: #FFFFFF;
+    --secondary-bcg-color; #F5F4FA;
+}
+
+body {
+    background-color: var(--main-light-color);
+    color: var(--main-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+
+}
+.list {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+.logoaccent {
+    color: var(--secondary-text-color);
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+}
+
+.logo {
+    color: var(--main-text-color);
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.nav .nav-list {
+    color: var(--main-text-color);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+
+}
+
+.nav .nav-list:hover,
+.nav .nav-list:focus {
+    color: var(--secondary-text-color);
+}
+
+
+/* Перша секція з кнопкою */
+
+.advertisement {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-light-color);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
+}
+
+
+/* Cекція про переваги */
+
+.benefit-header {
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+}
+
+.benefit-item {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        color: var(--light-text-color);
+}
+
+/* Секція з галерею */
+
+.social-links .link {
+    color: var(--main-text-color);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+    color: var(--secondary-text-color);
+}
+
+.advertisement {
+    letter-spacing: 0.06em;
+}
