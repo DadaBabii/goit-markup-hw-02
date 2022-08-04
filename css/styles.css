@@ -61,6 +61,21 @@ a {
     color: var(--secondary-text-color);
 }
 
+.social-links .link {
+    color: var(--main-text-color);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+    color: var(--secondary-text-color);
+}
+
 
 /* Перша секція з кнопкою */
 
@@ -74,6 +89,17 @@ a {
     color: var(--main-light-color);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         
+}
+
+.button  {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.06em;
+    color: var(--main-light-color);
+    background-color: var(--secondary-text-color);
+    border-color: var(--secondary-text-color);
 }
 
 
@@ -90,28 +116,76 @@ a {
 
 .benefit-item {
     font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        color: var(--light-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--light-text-color);
 }
 
 /* Секція з галерею */
 
-.social-links .link {
-    color: var(--main-text-color);
-    text-decoration: none;
-    letter-spacing: 0.02em;
+.directions {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+   
+}
+
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+}
+
+/* Про команду */
+
+.team-person-name {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 16px;
+    line-height: 1.19;
+    
+}
+
+.team-person-job {
+    color: var(--light-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/* footer */
+
+.footer-logo {
+    background-color: var(--dark-bcg-color);
+    color: var(--main-light-color);
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 
 }
 
-.social-links .link:hover,
-.social-links .link:focus {
+.footer-logoaccent {
+    background-color: var(--dark-bcg-color);
     color: var(--secondary-text-color);
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
 }
 
-.advertisement {
-    letter-spacing: 0.06em;
+.adress {
+
+    background-color: var(--dark-bcg-color);
+    color: var(--main-light-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-style: normal;
+
 }
