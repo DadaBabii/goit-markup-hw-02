@@ -157,8 +157,11 @@ a {
 
 /* footer */
 
-.footer-logo {
+.footerall {
     background-color: var(--dark-bcg-color);
+}
+
+.footer-logo {
     color: var(--main-light-color);
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -169,7 +172,7 @@ a {
 }
 
 .footer-logoaccent {
-    background-color: var(--dark-bcg-color);
+    
     color: var(--secondary-text-color);
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -181,7 +184,6 @@ a {
 
 .adress {
 
-    background-color: var(--dark-bcg-color);
     color: var(--main-light-color);
     font-weight: 400;
     font-size: 14px;
