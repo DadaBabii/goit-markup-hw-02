@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
@@ -19,10 +19,9 @@
         <nav>
             <a href="/" class="logo">
                 <span class="logoaccent">Web</span>Studio
-
             </a>
             <ul class="nav list">
-                <li><a href="" class="nav-list">Студія</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html" class="nav-list">Студія</a></li>
                 <li><a href="" class="nav-list">Портфоліо</a></li>
                 <li><a href="" class="nav-list">Контакти</a></li>
             </ul>
@@ -40,13 +39,13 @@
     <main>
         <!-- Власне портфоліо-->
         <section>
-            <h1 class="">Портфоліо</h1>
-            <ul>
-                <li> <button type="button" class="button">Усі</button></li>
-                <li> <button type="button" class="button">Веб-сайти</button></li>
-                <li> <button type="button" class="button">Додатки</button></li>
-                <li> <button type="button" class="button">Дизайн</button></li>
-                <li> <button type="button" class="button">Маркетинг</button></li>        
+            <h1 class="invheader">Портфоліо</h1>
+            <ul class="button-list list">
+                <li> <button type="button" class="button-pfl primary">Усі</button></li>
+                <li> <button type="button" class="button-pfl secondary">Веб-сайти</button></li>
+                <li> <button type="button" class="button-pfl secondary">Додатки</button></li>
+                <li> <button type="button" class="button-pfl secondary">Дизайн</button></li>
+                <li> <button type="button" class="button-pfl secondary">Маркетинг</button></li>        
             </ul>
         </section>
 
@@ -55,50 +54,93 @@
         <section>
             <h2 class="galary">Галерея</h2>
             <ul class="galery-list list">
-                <li class="">
-                    <img src="./images/img(i).jpg" alt="men Igor" width="270">
-                    <h3 class="team-person-name">
-                        Ігор Дем'яненко
+                <li class="galery-section">
+                    <img src="./images/img-portfolio/laptop.jpg" alt="Laptop" width="370">
+                    <h3 class="galery-header">
+                        Технокряк
                     </h3>
-                    <p class="team-person-job">Product Designer</p>
+                    <p class="galery-info">Веб-сайт</p>
                 </li>
-                <li class="team-person-image">
-                    <img src="./images/img(o).jpg" alt="women Olga" width="270">
-                    <h3 class="team-person-name">Ольга Репіна</h3>
-                    <p class="team-person-job">Frontend Developer</p>
+                <li class="galery-section">
+                    <img class="galery-img" src="./images/img-portfolio/bascetbal.jpg" alt="bascetball players" width="370">
+                    <h3 class="galery-header">
+                        Постер New Orlean vs Golden Star
+                    </h3>
+                    <p class="galery-info">Дизайн</p>
                 </li>
-                <li class="team-person-image">
-                    <img src="./images/img(n).jpg" alt="men Nikolay" width="270">
-                    <h3 class="team-person-name">Микола Тарасов</h3>
-                    <p class="team-person-job">Marketing</p>
+                <li class="galery-section">
+                    <img class="galery-img" src="./images/img-portfolio/seafood.jpg" alt="brand fish" width="370">
+                    <h3 class="galery-header">
+                        Ресторан Seafood
+                    </h3>
+                    <p class="galery-info">Додаток</p>
                 </li>
-                <li class="team-person-image">
-                    <img src="./images/img(m).jpg" alt="men Mykhaylo" width="270">
-                    <h3 class="team-person-name">Михайло Єрмаков</h3>
-                    <p class="team-person-job">UI Designer</p>
+                <li class="galery-section">
+                    <img class="galery-img" src="./images/img-portfolio/earphones.jpg" alt="earphones" width="370">
+                    <h3 class="galery-header">
+                        Проєкт Prime
+                    </h3>
+                    <p class="galery-info">Маркетинг</p>
+                </li>
+                <li class="galery-section">
+                    <img class="galery-img" src="./images/img-portfolio/boxes.jpg" alt="boxes" width="370">
+                    <h3 class="galery-header">
+                        Проєкт Boxes
+                    </h3>
+                    <p class="galery-info">Додаток</p>
+                </li>
+                <li class="galery-section">
+                    <img class="galery-img" src="./images/img-portfolio/PC.jpg" alt="computer" width="370">
+                    <h3 class="galery-header">
+                        Inspiration has no Borders
+                    </h3>
+                    <p class="galery-info">Веб-сайт</p>
+                </li>
+                <li class="galery-section">
+                    <img class="galery-img" src="./images/img-portfolio/book.jpg" alt="book" width="370">
+                    <h3 class="galery-header">
+                        Видання Limited Edition
+                    </h3>
+                    <p class="galery-info">Дизайн</p>
+                </li>
+                <li class="galery-section">
+                    <img class="galery-img" src="./images/img-portfolio/label.jpg" alt="label" width="370">
+                    <h3 class="galery-header">
+                        Маркетинг
+                    </h3>
+                    <p class="galery-info">Веб-сайт</p>
+                </li>
+                <li class="galery-section">
+                    <img class="galery-img" src="./images/img-portfolio/workinonlaptop.jpg" alt="work on laptop" width="370">
+                    <h3 class="galery-header">
+                        Growing Business
+                    </h3>
+                    <p class="galery-info">Додаток</p>
                 </li>
             </ul>
         </section>
     </main>
 
-    <footer>
-        <a href="/" class="footer-logo">
+    <footer class="footerall">
+        <a href="/" class="logo">
             <span class="footer-logoaccent">Web</span>Studio
         </a>
-
-
+    
+    
         <address>
             <ul class="contacts-list list">
-                <li class="adress">м. Київ, пр-т Лесі Українки, 26</li>
+                <li class="contact-item">
+                    <p class="adress">м. Київ, пр-т Лесі Українки, 26</p>
+                </li>
 
-                <li class="adress"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-
-                <li class="adress"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-
+                <li class="contact-item"><a href="mailto:info@devstudio.com" class="adress">info@devstudio.com</a></li>
+    
+                <li class="contact-item"><a href="tel:+380961111111" class="adress">+38 096 111 11 11</a></li>
+    
             </ul>
         </address>
-
-
+    
+    
     </footer>
 
 </body>

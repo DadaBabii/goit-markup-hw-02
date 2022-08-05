@@ -7,7 +7,7 @@
     --dark-bcg-color: #2F303A;
     --light-bcg-color: #F5F4FA;
     --main-light-color: #FFFFFF;
-    --secondary-bcg-color; #F5F4FA;
+    
 }
 
 body {
@@ -46,6 +46,11 @@ a {
     line-height: 1.19;
 }
 
+.logo:hover,
+.logo:focus {
+    color: var(--secondary-text-color);
+}
+
 .nav .nav-list {
     color: var(--main-text-color);
     text-decoration: none;
@@ -79,6 +84,10 @@ a {
 
 /* Перша секція з кнопкою */
 
+.advertis-section {
+background-color: var(--dark-bcg-color);
+}
+
 .advertisement {
     font-weight: 900;
     font-size: 44px;
@@ -87,19 +96,20 @@ a {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--main-light-color);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        
+            
 }
 
 .button  {
+    font-family: inherit;
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.18;
+    text-align: center;
     letter-spacing: 0.06em;
     color: var(--main-light-color);
     background-color: var(--secondary-text-color);
-    border-color: var(--secondary-text-color);
+    border-color: transparent;
 }
 
 
@@ -115,7 +125,6 @@ a {
 }
 
 .benefit-item {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: var(--light-text-color);
@@ -141,6 +150,14 @@ a {
 
 /* Про команду */
 
+.team-section {
+    background-color: var(--light-bcg-color);
+}
+
+.team-person-item {
+    background-color: var(--main-light-color);
+}
+
 .team-person-name {
     font-weight: 500;
     font-size: 16px;
@@ -150,7 +167,6 @@ a {
 
 .team-person-job {
     color: var(--light-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
 }
@@ -182,6 +198,11 @@ a {
 
 }
 
+.footer-logo:hover,
+.footer-logo:focus {
+    color: var(--secondary-text-color);
+}
+
 .adress {
 
     color: var(--main-light-color);
@@ -190,4 +211,52 @@ a {
     line-height: 24px;
     font-style: normal;
 
+}
+
+.adress:hover,
+.adress:focus {
+    color: var(--secondary-text-color);
+}
+
+/* власне портфоліо */
+
+.button-pfl {
+        font-family: inherit;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--main-light-color);
+        background-color: var(--secondary-text-color);
+        border-color: transparent;
+}
+
+.button-pfl.primary {
+    color: var(--main-light-color);
+    background-color: var(--secondary-text-color);
+}
+
+.button-pfl.secondary {
+    color: var(--main-text-color);
+    background-color: var(--light-bcg-color);
+
+}
+
+/* Галерея */
+
+.galery-header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-text-color);
+}
+
+.galery-info {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--light-text-color)
 }
