@@ -30,7 +30,6 @@ a {
 .logoaccent {
     color: var(--secondary-text-color);
     font-family: Raleway, sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -40,16 +39,11 @@ a {
 .logo {
     color: var(--main-text-color);
     font-family: Raleway, sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
 }
 
-.logo:hover,
-.logo:focus {
-    color: var(--secondary-text-color);
-}
 
 .nav .nav-list {
     color: var(--main-text-color);
@@ -67,7 +61,7 @@ a {
 }
 
 .social-links .link {
-    color: var(--main-text-color);
+    color: var(--light-text-color);
     text-decoration: none;
     letter-spacing: 0.02em;
     font-weight: 500;
@@ -112,8 +106,26 @@ background-color: var(--dark-bcg-color);
     border-color: transparent;
 }
 
+.button:hover,
+.button:focus {
+    color: var(--main-text-color);
+    background-color: var(--light-bcg-color);
+}
 
 /* Cекція про переваги */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 
 .benefit-header {
     
@@ -198,17 +210,23 @@ background-color: var(--dark-bcg-color);
 
 }
 
-.footer-logo:hover,
-.footer-logo:focus {
-    color: var(--secondary-text-color);
-}
 
 .adress {
 
     color: var(--main-light-color);
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
+    font-style: normal;
+
+}
+
+.adress-link {
+
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
     font-style: normal;
 
 }
@@ -236,13 +254,32 @@ background-color: var(--dark-bcg-color);
 .button-pfl.primary {
     color: var(--main-light-color);
     background-color: var(--secondary-text-color);
+    border-color: transparent
 }
 
 .button-pfl.secondary {
     color: var(--main-text-color);
     background-color: var(--light-bcg-color);
+   
 
 }
+
+.button-pfl.primary:hover,
+.button-pfl.primary:focus {
+    color: var(--main-text-color);
+    background-color: var(--light-bcg-color);
+    border-color: var(--secondary-text-color);
+    
+}
+
+.button-pfl.secondary:hover,
+.button-pfl.secondary:focus {
+    color: var(--main-light-color);
+    background-color: var(--secondary-text-color);
+    border-color: transparent
+}
+
+
 
 /* Галерея */
 
