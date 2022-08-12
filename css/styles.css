@@ -269,6 +269,7 @@ background-color: var(--dark-bcg-color);
     color: var(--main-text-color);
     background-color: var(--light-bcg-color);
     border-color: var(--secondary-text-color);
+    border
     
 }
 
